@@ -1,0 +1,462 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8E4CB2CC13A11246000976B1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E4CB2CB13A11246000976B1 /* UIKit.framework */; };
+		8E4CB2CE13A11246000976B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E4CB2CD13A11246000976B1 /* Foundation.framework */; };
+		8E4CB2D013A11246000976B1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E4CB2CF13A11246000976B1 /* CoreGraphics.framework */; };
+		8E4CB2D613A11246000976B1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8E4CB2D413A11246000976B1 /* InfoPlist.strings */; };
+		8E4CB2D913A11246000976B1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E4CB2D813A11246000976B1 /* main.m */; };
+		8E4CB2DC13A11246000976B1 /* CassiusAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E4CB2DB13A11246000976B1 /* CassiusAppDelegate.m */; };
+		8E4CB2DF13A11246000976B1 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E4CB2DD13A11246000976B1 /* MainWindow.xib */; };
+		8E4CB2E213A11246000976B1 /* CassiusViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E4CB2E113A11246000976B1 /* CassiusViewController.m */; };
+		8E4CB2E513A11246000976B1 /* CassiusViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E4CB2E313A11246000976B1 /* CassiusViewController.xib */; };
+		8E4CB2EC13A11246000976B1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E4CB2CB13A11246000976B1 /* UIKit.framework */; };
+		8E4CB2ED13A11246000976B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E4CB2CD13A11246000976B1 /* Foundation.framework */; };
+		8E4CB2EE13A11246000976B1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E4CB2CF13A11246000976B1 /* CoreGraphics.framework */; };
+		8E4CB2F613A11246000976B1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8E4CB2F413A11246000976B1 /* InfoPlist.strings */; };
+		8E4CB2F913A11246000976B1 /* CassiusTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 8E4CB2F813A11246000976B1 /* CassiusTests.h */; };
+		8E4CB2FB13A11246000976B1 /* CassiusTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E4CB2FA13A11246000976B1 /* CassiusTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8E4CB2EF13A11246000976B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E4CB2BE13A11246000976B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E4CB2C613A11246000976B1;
+			remoteInfo = Cassius;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8E4CB2C713A11246000976B1 /* Cassius.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cassius.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E4CB2CB13A11246000976B1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8E4CB2CD13A11246000976B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8E4CB2CF13A11246000976B1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8E4CB2D313A11246000976B1 /* Cassius-Info.plist */ = {isa = PBXFileReference; path = "Cassius-Info.plist"; sourceTree = "<group>"; };
+		8E4CB2D513A11246000976B1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8E4CB2D713A11246000976B1 /* Cassius-Prefix.pch */ = {isa = PBXFileReference; path = "Cassius-Prefix.pch"; sourceTree = "<group>"; };
+		8E4CB2D813A11246000976B1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8E4CB2DA13A11246000976B1 /* CassiusAppDelegate.h */ = {isa = PBXFileReference; path = CassiusAppDelegate.h; sourceTree = "<group>"; };
+		8E4CB2DB13A11246000976B1 /* CassiusAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CassiusAppDelegate.m; sourceTree = "<group>"; };
+		8E4CB2DE13A11246000976B1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		8E4CB2E013A11246000976B1 /* CassiusViewController.h */ = {isa = PBXFileReference; path = CassiusViewController.h; sourceTree = "<group>"; };
+		8E4CB2E113A11246000976B1 /* CassiusViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CassiusViewController.m; sourceTree = "<group>"; };
+		8E4CB2E413A11246000976B1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CassiusViewController.xib; sourceTree = "<group>"; };
+		8E4CB2EB13A11246000976B1 /* CassiusTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CassiusTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E4CB2F313A11246000976B1 /* CassiusTests-Info.plist */ = {isa = PBXFileReference; path = "CassiusTests-Info.plist"; sourceTree = "<group>"; };
+		8E4CB2F513A11246000976B1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8E4CB2F713A11246000976B1 /* CassiusTests-Prefix.pch */ = {isa = PBXFileReference; path = "CassiusTests-Prefix.pch"; sourceTree = "<group>"; };
+		8E4CB2F813A11246000976B1 /* CassiusTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CassiusTests.h; sourceTree = "<group>"; };
+		8E4CB2FA13A11246000976B1 /* CassiusTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CassiusTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8E4CB2C413A11246000976B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E4CB2CC13A11246000976B1 /* UIKit.framework in Frameworks */,
+				8E4CB2CE13A11246000976B1 /* Foundation.framework in Frameworks */,
+				8E4CB2D013A11246000976B1 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E4CB2E713A11246000976B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E4CB2EC13A11246000976B1 /* UIKit.framework in Frameworks */,
+				8E4CB2ED13A11246000976B1 /* Foundation.framework in Frameworks */,
+				8E4CB2EE13A11246000976B1 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8E4CB2BC13A11246000976B1 = {
+			isa = PBXGroup;
+			children = (
+				8E4CB2D113A11246000976B1 /* Cassius */,
+				8E4CB2F113A11246000976B1 /* CassiusTests */,
+				8E4CB2CA13A11246000976B1 /* Frameworks */,
+				8E4CB2C813A11246000976B1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8E4CB2C813A11246000976B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8E4CB2C713A11246000976B1 /* Cassius.app */,
+				8E4CB2EB13A11246000976B1 /* CassiusTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8E4CB2CA13A11246000976B1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8E4CB2CB13A11246000976B1 /* UIKit.framework */,
+				8E4CB2CD13A11246000976B1 /* Foundation.framework */,
+				8E4CB2CF13A11246000976B1 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8E4CB2D113A11246000976B1 /* Cassius */ = {
+			isa = PBXGroup;
+			children = (
+				8E4CB2DA13A11246000976B1 /* CassiusAppDelegate.h */,
+				8E4CB2DB13A11246000976B1 /* CassiusAppDelegate.m */,
+				8E4CB2DD13A11246000976B1 /* MainWindow.xib */,
+				8E4CB2E013A11246000976B1 /* CassiusViewController.h */,
+				8E4CB2E113A11246000976B1 /* CassiusViewController.m */,
+				8E4CB2E313A11246000976B1 /* CassiusViewController.xib */,
+				8E4CB2D213A11246000976B1 /* Supporting Files */,
+			);
+			path = Cassius;
+			sourceTree = "<group>";
+		};
+		8E4CB2D213A11246000976B1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8E4CB2D313A11246000976B1 /* Cassius-Info.plist */,
+				8E4CB2D413A11246000976B1 /* InfoPlist.strings */,
+				8E4CB2D713A11246000976B1 /* Cassius-Prefix.pch */,
+				8E4CB2D813A11246000976B1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8E4CB2F113A11246000976B1 /* CassiusTests */ = {
+			isa = PBXGroup;
+			children = (
+				8E4CB2F813A11246000976B1 /* CassiusTests.h */,
+				8E4CB2FA13A11246000976B1 /* CassiusTests.m */,
+				8E4CB2F213A11246000976B1 /* Supporting Files */,
+			);
+			path = CassiusTests;
+			sourceTree = "<group>";
+		};
+		8E4CB2F213A11246000976B1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8E4CB2F313A11246000976B1 /* CassiusTests-Info.plist */,
+				8E4CB2F413A11246000976B1 /* InfoPlist.strings */,
+				8E4CB2F713A11246000976B1 /* CassiusTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8E4CB2C613A11246000976B1 /* Cassius */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E4CB2FE13A11246000976B1 /* Build configuration list for PBXNativeTarget "Cassius" */;
+			buildPhases = (
+				8E4CB2C313A11246000976B1 /* Sources */,
+				8E4CB2C413A11246000976B1 /* Frameworks */,
+				8E4CB2C513A11246000976B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cassius;
+			productName = Cassius;
+			productReference = 8E4CB2C713A11246000976B1 /* Cassius.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8E4CB2EA13A11246000976B1 /* CassiusTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E4CB30113A11246000976B1 /* Build configuration list for PBXNativeTarget "CassiusTests" */;
+			buildPhases = (
+				8E4CB2E613A11246000976B1 /* Sources */,
+				8E4CB2E713A11246000976B1 /* Frameworks */,
+				8E4CB2E813A11246000976B1 /* Resources */,
+				8E4CB2E913A11246000976B1 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8E4CB2F013A11246000976B1 /* PBXTargetDependency */,
+			);
+			name = CassiusTests;
+			productName = CassiusTests;
+			productReference = 8E4CB2EB13A11246000976B1 /* CassiusTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8E4CB2BE13A11246000976B1 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 8E4CB2C113A11246000976B1 /* Build configuration list for PBXProject "Cassius" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8E4CB2BC13A11246000976B1;
+			productRefGroup = 8E4CB2C813A11246000976B1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8E4CB2C613A11246000976B1 /* Cassius */,
+				8E4CB2EA13A11246000976B1 /* CassiusTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8E4CB2C513A11246000976B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E4CB2D613A11246000976B1 /* InfoPlist.strings in Resources */,
+				8E4CB2DF13A11246000976B1 /* MainWindow.xib in Resources */,
+				8E4CB2E513A11246000976B1 /* CassiusViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E4CB2E813A11246000976B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E4CB2F613A11246000976B1 /* InfoPlist.strings in Resources */,
+				8E4CB2F913A11246000976B1 /* CassiusTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8E4CB2E913A11246000976B1 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8E4CB2C313A11246000976B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E4CB2D913A11246000976B1 /* main.m in Sources */,
+				8E4CB2DC13A11246000976B1 /* CassiusAppDelegate.m in Sources */,
+				8E4CB2E213A11246000976B1 /* CassiusViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E4CB2E613A11246000976B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E4CB2FB13A11246000976B1 /* CassiusTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8E4CB2F013A11246000976B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8E4CB2C613A11246000976B1 /* Cassius */;
+			targetProxy = 8E4CB2EF13A11246000976B1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8E4CB2D413A11246000976B1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E4CB2D513A11246000976B1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8E4CB2DD13A11246000976B1 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E4CB2DE13A11246000976B1 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		8E4CB2E313A11246000976B1 /* CassiusViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E4CB2E413A11246000976B1 /* en */,
+			);
+			name = CassiusViewController.xib;
+			sourceTree = "<group>";
+		};
+		8E4CB2F413A11246000976B1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E4CB2F513A11246000976B1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8E4CB2FC13A11246000976B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		8E4CB2FD13A11246000976B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		8E4CB2FF13A11246000976B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Cassius/Cassius-Prefix.pch";
+				INFOPLIST_FILE = "Cassius/Cassius-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8E4CB30013A11246000976B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Cassius/Cassius-Prefix.pch";
+				INFOPLIST_FILE = "Cassius/Cassius-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		8E4CB30213A11246000976B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Cassius.app/Cassius";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CassiusTests/CassiusTests-Prefix.pch";
+				INFOPLIST_FILE = "CassiusTests/CassiusTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		8E4CB30313A11246000976B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Cassius.app/Cassius";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CassiusTests/CassiusTests-Prefix.pch";
+				INFOPLIST_FILE = "CassiusTests/CassiusTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8E4CB2C113A11246000976B1 /* Build configuration list for PBXProject "Cassius" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E4CB2FC13A11246000976B1 /* Debug */,
+				8E4CB2FD13A11246000976B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E4CB2FE13A11246000976B1 /* Build configuration list for PBXNativeTarget "Cassius" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E4CB2FF13A11246000976B1 /* Debug */,
+				8E4CB30013A11246000976B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8E4CB30113A11246000976B1 /* Build configuration list for PBXNativeTarget "CassiusTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E4CB30213A11246000976B1 /* Debug */,
+				8E4CB30313A11246000976B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8E4CB2BE13A11246000976B1 /* Project object */;
+}
