@@ -13,12 +13,31 @@
  OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#import <UIKit/UIKit.h>
 
-int main(int argc, char *argv[])
-{
-    NSAutoreleasePool *pool = [[NSAutoreleasePool alloc] init];
-    int retVal= UIApplicationMain(argc,argv,nil,@"CassiusAppDelegate"); 
-    [pool release];
-    return retVal;
+#import <Foundation/Foundation.h>
+#import "JSON.h"    
+#import "RowBasedPageTemplate.h"
+#import "ColumnBasedPageTemplate.h"
+#import "StoriesFeed.h"
+#import "ImageTitleText.h"
+#import "StoriesPageView.h"
+#import "Story.h"
+
+#define CONTENT_AREA_HEADER 100.0f
+#define CONTENT_AREA_MARGIN_TOP 20.0f
+#define CONTENT_AREA_MARGIN_SIDE 10.0f
+#define CONTENT_AREA_MARGIN_BOTTOM 20.0f
+
+#define SECTION_TITLE_IMAGE_ABSTRACT @"TIA"
+#define SECTION_IMAGE_TITLE_ABSTRACT @"ITA"
+#define SECTION_TITLE_ABSTRACT_IMAGE_RIGHT @"TAIR"
+#define SECTION_TITLE_ABSTRACT_IMAGE_LEFT @"TAIL"
+
+@interface PageLayoutManager : NSObject {
+    
 }
+
+- (NSMutableArray*) parsePageTemplateConfig:(NSString*)templateConfig;
+- (NSMutableArray*) constructPagesWithTemplate:(NSMutableArray*)pageTemplatesArray storiesFeed:(StoriesFeed*)storiesFeed;
+
+@end

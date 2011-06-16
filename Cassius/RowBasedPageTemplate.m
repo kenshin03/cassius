@@ -13,12 +13,11 @@
  OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#import <UIKit/UIKit.h>
+#import "RowBasedPageTemplate.h"
 
-int main(int argc, char *argv[])
-{
-    NSAutoreleasePool *pool = [[NSAutoreleasePool alloc] init];
-    int retVal= UIApplicationMain(argc,argv,nil,@"CassiusAppDelegate"); 
-    [pool release];
-    return retVal;
-}
+
+@implementation RowBasedPageTemplate
+
+@synthesize rowsArray = _rowsArray;
+
+@end

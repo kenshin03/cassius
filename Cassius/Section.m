@@ -13,12 +13,32 @@
  OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#import <UIKit/UIKit.h>
+#import "Section.h"
 
-int main(int argc, char *argv[])
+
+@implementation Section
+
+- (id)initWithFrame:(CGRect)frame
 {
-    NSAutoreleasePool *pool = [[NSAutoreleasePool alloc] init];
-    int retVal= UIApplicationMain(argc,argv,nil,@"CassiusAppDelegate"); 
-    [pool release];
-    return retVal;
+    self = [super initWithFrame:frame];
+    if (self) {
+        // Initialization code
+    }
+    return self;
 }
+
+/*
+// Only override drawRect: if you perform custom drawing.
+// An empty implementation adversely affects performance during animation.
+- (void)drawRect:(CGRect)rect
+{
+    // Drawing code
+}
+*/
+
+- (void)dealloc
+{
+    [super dealloc];
+}
+
+@end

@@ -14,11 +14,19 @@
  */
 
 #import <UIKit/UIKit.h>
+#import "AFKPageFlipper.h"
+#import "CoverViewController.h"
+#import "StoriesPagesViewController.h"
 
-int main(int argc, char *argv[])
-{
-    NSAutoreleasePool *pool = [[NSAutoreleasePool alloc] init];
-    int retVal= UIApplicationMain(argc,argv,nil,@"CassiusAppDelegate"); 
-    [pool release];
-    return retVal;
+
+@interface MainController : UIViewController <AFKPageFlipperDataSource>{
+	AFKPageFlipper *flipper;
+    CoverViewController *_coverViewController;
+    NSMutableArray *_pageViewsArray;
+    
 }
+@property(nonatomic, retain) CoverViewController* coverViewController;
+@property(nonatomic, retain) NSMutableArray* pageViewsArray;
+
+
+@end

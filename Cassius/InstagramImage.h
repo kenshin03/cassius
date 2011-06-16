@@ -13,12 +13,22 @@
  OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#import <UIKit/UIKit.h>
 
-int main(int argc, char *argv[])
-{
-    NSAutoreleasePool *pool = [[NSAutoreleasePool alloc] init];
-    int retVal= UIApplicationMain(argc,argv,nil,@"CassiusAppDelegate"); 
-    [pool release];
-    return retVal;
+#import <Foundation/Foundation.h>
+
+
+@interface InstagramImage : NSObject {
+    NSString *_instagramURL;
+    NSString *_imageURL;
+    NSString *_fromUserName;
+    NSString *_fromUserProfileImage;
+    NSString *_caption;
 }
+
+@property(nonatomic, retain) NSString* instagramURL;
+@property(nonatomic, retain) NSString* imageURL;
+@property(nonatomic, retain) NSString* fromUserName;
+@property(nonatomic, retain) NSString* fromUserProfileImage;
+@property(nonatomic, retain) NSString* caption;
+
+@end

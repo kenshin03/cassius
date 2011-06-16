@@ -13,12 +13,19 @@
  OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#import <UIKit/UIKit.h>
 
-int main(int argc, char *argv[])
-{
-    NSAutoreleasePool *pool = [[NSAutoreleasePool alloc] init];
-    int retVal= UIApplicationMain(argc,argv,nil,@"CassiusAppDelegate"); 
-    [pool release];
-    return retVal;
+#import <Foundation/Foundation.h>
+#import "JSON.h"    
+#import "Tweet.h"
+#import "StoriesFeed.h"
+
+#define TWITTER_STORIES_URL @"http://dl.dropbox.com/u/18443099/twitterFeed.json"
+
+
+@interface TwitterFeedsDataController : NSObject {
+    
 }
+
+- (StoriesFeed*) retrieveTwitterFeeds;
+
+@end

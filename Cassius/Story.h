@@ -13,12 +13,26 @@
  OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#import <UIKit/UIKit.h>
 
-int main(int argc, char *argv[])
-{
-    NSAutoreleasePool *pool = [[NSAutoreleasePool alloc] init];
-    int retVal= UIApplicationMain(argc,argv,nil,@"CassiusAppDelegate"); 
-    [pool release];
-    return retVal;
+#import <Foundation/Foundation.h>
+
+
+@interface Story : NSObject {
+    NSString *_date;
+    NSString *_title;
+    NSString *_story;
+    NSString *_imageURL;
+    NSString *_source;
+    NSString *_userName;
+    NSString *_userImageURL;
+    
 }
+@property(nonatomic, retain) NSString* date;
+@property(nonatomic, retain) NSString* title;
+@property(nonatomic, retain) NSString* story;
+@property(nonatomic, retain) NSString* imageURL;
+@property(nonatomic, retain) NSString* source;
+@property(nonatomic, retain) NSString* userName;
+@property(nonatomic, retain) NSString* userImageURL;
+
+@end

@@ -13,12 +13,31 @@
  OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import "Section.h"
+#import "PageLayoutManager.h"
+#import <QuartzCore/QuartzCore.h>
 
-int main(int argc, char *argv[])
-{
-    NSAutoreleasePool *pool = [[NSAutoreleasePool alloc] init];
-    int retVal= UIApplicationMain(argc,argv,nil,@"CassiusAppDelegate"); 
-    [pool release];
-    return retVal;
+@interface ImageTitleText : Section {
+    NSString *_imageURL;
+    NSString *_title;
+    NSString *_storyAbstract;
+    NSString *_userImageURL;
+    NSString *_userName;
+    
+    UIView *_titleView;
+    UIView *_imageView;
+    UIView *_storyAbstractView;
 }
+@property(nonatomic, retain) NSString* title;
+@property(nonatomic, retain) NSString* storyAbstract;
+@property(nonatomic, retain) NSString* imageURL;
+@property(nonatomic, retain) NSString* userName;
+@property(nonatomic, retain) NSString* userImageURL;
+
+@property(nonatomic, retain) UIView* titleView;
+@property(nonatomic, retain) UIView* imageView;
+@property(nonatomic, retain) UIView* storyAbstractView;
+
+
+@end

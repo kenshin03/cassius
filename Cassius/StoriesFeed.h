@@ -13,12 +13,18 @@
  OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
 
-int main(int argc, char *argv[])
-{
-    NSAutoreleasePool *pool = [[NSAutoreleasePool alloc] init];
-    int retVal= UIApplicationMain(argc,argv,nil,@"CassiusAppDelegate"); 
-    [pool release];
-    return retVal;
+
+@interface StoriesFeed : NSObject {
+    NSMutableArray *_featuredStoriesArray;
+    NSMutableArray *_fillerStoriesArray;
+    NSMutableArray *_shortMessagesArray;
+    
 }
+@property(nonatomic, retain) NSMutableArray* featuredStoriesArray;
+@property(nonatomic, retain) NSMutableArray* fillerStoriesArray;
+@property(nonatomic, retain) NSMutableArray* shortMessagesArray;
+
+
+@end

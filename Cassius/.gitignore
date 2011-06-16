@@ -1,0 +1,13 @@
+.DS_Store
+
+# Eclipse specific settings
+
+.classpath
+.project
+.settings
+
+# Binaries
+
+target
+.properties
+.backup

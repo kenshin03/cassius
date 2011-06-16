@@ -13,12 +13,19 @@
  OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#import <UIKit/UIKit.h>
 
-int main(int argc, char *argv[])
-{
-    NSAutoreleasePool *pool = [[NSAutoreleasePool alloc] init];
-    int retVal= UIApplicationMain(argc,argv,nil,@"CassiusAppDelegate"); 
-    [pool release];
-    return retVal;
-}
+#import "Story.h"
+
+
+@implementation Story
+
+@synthesize date = _date;
+@synthesize title = _title;
+@synthesize story = _story;
+@synthesize imageURL = _imageURL;
+@synthesize source = _source;
+@synthesize userName = _userName;
+@synthesize userImageURL = _userImageURL;
+
+
+@end
